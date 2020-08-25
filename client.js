@@ -14,7 +14,9 @@ const connect = function() {
   });
   conn.on('connect', () => {
     conn.write("Name: ZAR");
+    //conn.write("Move: up")
   });
+  
   return conn;
 }
 
